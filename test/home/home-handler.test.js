@@ -5,7 +5,7 @@ describe('home-handler', () => {
   it('should return title and welcomeMessage', async () => {
     const { request, response } = mockRequest()
     const result = await homeHandler({} , request, response)
-    expect(result).toHaveProperty('title')
+    expect(result).toHaveProperty('titlex')
     expect(result).toHaveProperty('welcomeMessage')
   })
   
