@@ -21,7 +21,7 @@ export default class Home extends Component {
         </Row>
         <Row>
           <Typography variant="subtitle1">
-            <CmsSlot>{ app.welcomeMessage }</CmsSlot>
+            PR Test
           </Typography>
         </Row>
       </Container> 
