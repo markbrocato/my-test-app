@@ -7,7 +7,6 @@ describe('Home', () => {
   it('should render', () => {
     expect(mount(
       <TestProvider>
-        <Home/>
       </TestProvider>
     )).toMatchSnapshot()
   })
